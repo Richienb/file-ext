@@ -1,6 +1,6 @@
 {
 	"name": "file-ext",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Extract the file extension from a path.",
 	"repository": "https://github.com/Richienb/file-ext.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
