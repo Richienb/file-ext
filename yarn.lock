@@ -1601,6 +1601,11 @@ get-caller-file@^2.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
+get-ext@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/get-ext/-/get-ext-1.0.2.tgz#fce896d0cc4cd615ece7c13a0ebd55e65270056d"
+  integrity sha1-/OiW0MxM1hXs58E6Dr1V5lJwBW0=
+
 get-set-props@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/get-set-props/-/get-set-props-0.1.0.tgz#998475c178445686d0b32246da5df8dbcfbe8ea3"
@@ -2796,6 +2801,13 @@ os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+
+ow@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/ow/-/ow-0.16.0.tgz#c096cfbee8fe447577099598e8f04e002f2fc391"
+  integrity sha512-pJAkOEbRT7vhJZlkyKp/rQKR4YQ3qqdek6f3MnHMs7MRBKm5RfZq6GiLnqMRbQeYTwhMFXsTFuyhDrFuPu+yFQ==
+  dependencies:
+    type-fest "^0.8.1"
 
 p-cancelable@^1.0.0:
   version "1.1.0"

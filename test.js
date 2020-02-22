@@ -1,13 +1,8 @@
 const test = require("ava")
-const theModule = require(".")
+const fileExtension = require(".")
 
 test("main", (t) => {
-	t.throws(() => {
-		theModule(123)
-	}, {
-		instanceOf: TypeError,
-		message: "Expected a string, got number",
-	})
-
-	t.is(theModule("unicorns"), "unicorns & rainbows")
+	t.is(fileExtension("a.txt"), "txt")
+	t.is(fileExtension("a/b.txt"), "txt")
+	t.is(fileExtension("a"), undefined)
 })

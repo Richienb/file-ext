@@ -1,7 +1,13 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const getExtension = require("get-ext")
+const { default: ow } = require("ow")
 
-	return `${input} & ${postfix}`
+module.exports = (filename) => {
+	ow(filename, ow.string)
+
+	const extension = getExtension(filename)
+
+	if (extension.length === 0) return undefined
+	return extension.slice(1)
 }

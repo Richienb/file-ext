@@ -1,14 +1,14 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Extract the file extension from a path.
+ * @param filename The filename to extract the extension from.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const fileExt = require("file-ext");
+ *
+ * fileExt("a/b.txt");
+ * //=> 'txt'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function fileExt(filename: string): string | undefined
 
-export = theModule;
+export = fileExt

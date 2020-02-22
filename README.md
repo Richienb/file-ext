@@ -1,41 +1,30 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# File Ext [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/file-ext/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/file-ext)
 
-My awesome module.
+Extract the file extension from a path.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/file-ext.png)](https://npmjs.com/package/file-ext)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install file-ext
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const fileExt = require("file-ext");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+fileExt("a/b.txt");
+//=> 'txt'
 ```
 
 ## API
 
-### theModule(input, options?)
+### fileExt(filename)
 
-#### input
+#### filename
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The filename to extract the extension from.
